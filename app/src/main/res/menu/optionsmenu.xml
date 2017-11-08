@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="@string/settings_text"
+        android:id="@+id/settings_item"/>
+    <item android:title="@string/help_text"
+        android:id="@+id/help_item"/>
+    <item android:title="@string/search_text"
+        app:showAsAction="always"
+        android:icon="@drawable/search_icon"
+        android:id="@+id/search_item"/>
+    <item android:title="@string/feedback_text"
+        android:id="@+id/feedback_item"/>
+</menu>
